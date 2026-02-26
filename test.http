@@ -1,0 +1,11 @@
+### Create Employee
+POST http://localhost:4004/odata/v4/hr/Employees
+Content-Type: application/json
+
+{
+  "employeeId": "EMP005",
+  "name": "RISHI",
+  "department": "MARKETING"
+}
+
+
