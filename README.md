@@ -1,25 +1,31 @@
-# Getting Started
+# Compliance and Audit Tracking System (CATS)
 
-Welcome to your new project.
+## Overview
+CATS is a full-stack SAP CAPM application developed on SAP BTP to manage compliance and audit tracking processes efficiently.
 
-It contains these folders and files, following our recommended project layout:
+## Features
+- Track compliance records
+- Manage audit logs
+- Employee and salary management
+- SAP Fiori-based user interface
+- OData V4 services
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+## Tech Stack
+- SAP BTP
+- CAPM (Node.js)
+- CDS Views
+- OData Services
+- SAP Fiori (UI5)
 
+## Architecture
+- MVC-based architecture
+- Service-oriented design
 
-## Next Steps
+## Project Structure
+- app/ → Fiori UI
+- srv/ → Service layer
+- db/ → Data models
 
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
+## How to Run
+npm install  
+cds watch
